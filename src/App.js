@@ -14,7 +14,7 @@ function App() {
     setLoading(true); // Set loading state to true
 
     const imageSrc = webcamRef.current.getScreenshot();
-    const backendEndpoint = 'http://127.0.0.1:8000/upload-image/';
+    const backendEndpoint = 'https://lv3x2tcv-8000.inc1.devtunnels.ms/upload-image/';
 
     try {
       const formData = new FormData();
