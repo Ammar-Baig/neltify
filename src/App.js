@@ -14,7 +14,7 @@ function App() {
     setLoading(true); // Set loading state to true
 
     const imageSrc = webcamRef.current.getScreenshot();
-    const backendEndpoint = 'http://143.244.137.248:8000/upload-image/';
+    const backendEndpoint = 'https://avantskincare.co.uk/upload-image/';
 
     try {
       const formData = new FormData();
